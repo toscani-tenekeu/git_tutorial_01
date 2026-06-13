@@ -3,24 +3,24 @@
     <head>
         <title>CONNEXION</title>
         <meta charset="UTF-8">
-
+        <link rel="stylesheet" href="./assets/style/style.css">
     </head>
     <body>
         <form class="formulaire" action="">
-            <p>BIENVENUE</p>
+            <p class="titre">BIENVENUE</p>
             <div class="champs-de-saisie">
                 <label for="email" id="email">Email</label>
-                <input type="email" name="email" placeholder="Entrer votre email">
+                <input type="email" name="email" placeholder="Entrer votre email"><br>
 
                 <label for="password" id="password">Mot de passe</label>
-                <input type="password" name="password" placeholder="Entrer votre mot de passe">
+                <input type="password" name="password" placeholder="Entrer votre mot de passe"><br>
             </div>
-            <a href="#">Mot de passe oublier ?</a>
+            <a class="passe-oublier" href="#">Mot de passe oublier ?</a><br>
 
-            <button type="submit">
+            <button class="button-connecter" type="submit">
                 Se connecter
             </button>
-            <p>Pas encore de compte? <a href="S'inscrire"></a></p>
+            <p class="lien-inscrire">Pas encore de compte? <a href="#">S'inscrire</a></p>
         </form>
     </body>
 </html>
